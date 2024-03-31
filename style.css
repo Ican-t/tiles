@@ -1,0 +1,53 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+#container{
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    
+    max-height: 100vh;
+
+    margin: auto;
+    
+}
+
+#wallTile{
+    width: 100%;
+    height: 100%;
+    background-size: 600px;
+    background-image: url(tiles/e588f1_3aca4b11f3a4413e9f349cc3fbf984fc~mv2.webp);
+    background-repeat: repeat;
+}
+
+#tileSelect{
+    position: relative;
+    width: 240px;
+    height: 120px;
+    background-color: white;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.tileItem{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.tileItem:hover{
+    cursor: pointer;
+}
